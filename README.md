@@ -39,6 +39,9 @@ spark-submit --class SimpleApp --master yarn --deploy-mode cluster --queue defau
 ```
 
 ### Running parameters: 
+
 SimpleApp: The main Scala Object
+
 hdfs:///data/collisions/csv: the input folder 
+
 hdfs:///user/setudiant2/data/extract_0: the output folder
