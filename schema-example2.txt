@@ -1,0 +1,4 @@
+val schemaQ6 = StructType(Array(StructField("ID",LongType, true),
+     StructField("Name",StringType,true),
+     StructField("Sex",StringType,true),
+     StructField("Age",LongType,true)))
